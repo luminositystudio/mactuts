@@ -1,4 +1,3 @@
-csrutil disable
 mount
 umount /Volumes/Macintosh\ HD
 mkdir /Volumes/Macintosh\ HD
