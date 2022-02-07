@@ -1,5 +1,3 @@
-csrutil disable;
-mount;
 umount /Volumes/Macintosh\ HD;
 mkdir /Volumes/Macintosh\ HD;
 mount -t apfs -rw /dev/disk2s5 /Volumes/Macintosh\ HD;
@@ -13,4 +11,3 @@ mv com.apple.ManagedClient.* xtemp/;
 mv com.apple.mdmclient.* xtemp/;
 csrutil authenticated-root disable;
 bless --folder /Volumes/Macintosh\ HD/System/Library/CoreServices --bootefi --create-snapshot;
-echo "Sucessfully"
